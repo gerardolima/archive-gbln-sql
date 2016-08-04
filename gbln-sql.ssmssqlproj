@@ -19,12 +19,6 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="admin - backup-restore - filegroups.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>admin - backup-restore - filegroups.sql</FullPath>
-        </FileNode>
         <FileNode Name="admin - backup-restore - simple.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
