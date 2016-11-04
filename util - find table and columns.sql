@@ -15,6 +15,6 @@ JOIN sys.schemas	sch ON (sch.schema_id = tab.schema_id)
 JOIN sys.columns	col ON (col.object_id = tab.object_id)
 WHERE 1=1
 AND tab.name LIKE '%'
--- AND col.name LIKE '%%'
--- AND sch.name IN ('', '')
+AND col.name LIKE '%signature%'
+AND sch.name IN ('hhsrc', '')
 -- */
