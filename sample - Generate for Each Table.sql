@@ -1,17 +1,17 @@
 -- ------------------------------------------------------------------------------------------------
 -- DESCRIPTION
--- This script was used to generate the following change scripts:
---  1. version 4.8.7: '0009 Apply SanitizeCodepage.sql'. (rolledback); and
---  2. version 4.8.8: '0019 SanitizeCodepage - appply to database.sql'.
+-- This script generates update statements for tables that have columns as double-byte characters.
+-- This script can be used as an initial step to generate code from a given schema (see variables
+-- @TPL_formula and @TPL_filter and the filter on step #2.1)
 --
 -- HOW TO USE
 -- Run this script on the target database and copy the script it generates to stdout. Due to the
 -- limit of the PRINT command, tables with many columns will produce invalid SQL bacause of a
 -- line break; parse the statement before use and, if there's a parse error, it should be easy
--- so correct.
+-- to correct.
 --
 -- DETAILS
--- It iterates over all double byte char columns of all tables within Healy Hudson schemas and
+-- It iterates over all double byte char columns of all tables within the given schemas and
 -- generates update statements for each table to apply the SanitizeCodepage to these columns
 -- if the result of the function is different from its current value.
 --
@@ -59,8 +59,8 @@ DECLARE @TPL_filter			NVARCHAR(MAX);
 -- 1. CREATE THE FORMULA TEMPLATE
 -- ----------------------------------------------------------------------------
 -- prolog
-SET @TPL_formula = '$field$ = SanitizeCodepage($field$)';
-SET @TPL_filter  = '(SanitizeCodepageCheck($field$) = 0)';
+SET @TPL_formula = '$field$ = SUBSTRING($field$, 1, 17) + ''...''';           -- implement the 
+SET @TPL_filter  = 'LEN($field$) > 20)';
 
 IF(@C_RUN_VERBOSE=1)
 BEGIN

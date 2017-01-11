@@ -9,7 +9,7 @@ DECLARE @filepath	AS nVARCHAR(250) = NULL;
 
 
 IF (@action IS NULL)	SET @action = N'VERIFY'; 
-IF (@folder IS NULL)	SET @folder = N'd:\backups\';
+IF (@folder IS NULL)	SET @folder = N'd:\backups\\';
 IF (@database IS NULL)	SET @database = DB_NAME();
 IF (@filename IS NULL)	SET @filename = @database + '.bak'
 IF (@filepath IS NULL)	SET @filepath = @folder + @filename;

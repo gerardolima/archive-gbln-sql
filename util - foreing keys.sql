@@ -59,7 +59,7 @@ ORDER BY [refs_table], [refs_column], [owns_table], [owns_column]
 )
 SELECT * -- MAX(depth) AS [max_depth], object_id
 FROM cte
-WHERE cte.schema_id IN (SELECT schema_id FROM sys.schemas WHERE name LIKE 'hh%')
+WHERE cte.schema_id IN (SELECT schema_id FROM sys.schemas WHERE name LIKE 'dom%')
 -- */
 
 -- ------------------------------------------------------------------------------------------------
@@ -86,7 +86,7 @@ WHERE cte.schema_id IN (SELECT schema_id FROM sys.schemas WHERE name LIKE 'hh%')
 	WHERE cte.object_id != tab.object_id
 )
 SELECT cte.* FROM cte
-WHERE cte.schema_id IN (SELECT schema_id FROM sys.schemas WHERE name LIKE 'hh%')
+WHERE cte.schema_id IN (SELECT schema_id FROM sys.schemas WHERE name LIKE 'dom%')
 ORDER BY cte.[depth], cte.[path]
 -- */
 

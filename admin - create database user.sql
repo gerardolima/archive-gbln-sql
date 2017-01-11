@@ -23,8 +23,8 @@ DROP TABLE #TMP;
 -- create login for windows group for developers
 -- ============================================================================
 --USE [master]
---CREATE LOGIN [HEALY-HUDSON\Development] FROM WINDOWS WITH DEFAULT_DATABASE=[master]
---ALTER SERVER ROLE [sysadmin] ADD MEMBER [HEALY-HUDSON\Development]
+--CREATE LOGIN [] FROM WINDOWS WITH DEFAULT_DATABASE=[master]
+--ALTER SERVER ROLE [sysadmin] ADD MEMBER [DOMAIN\DEVELOPERS]
 
 -- ============================================================================
 -- create sql login (re-creates if exists)
