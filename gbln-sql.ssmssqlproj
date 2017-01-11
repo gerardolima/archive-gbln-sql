@@ -3,20 +3,8 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="LIS-WKS-0013:HEALY-HUDSON\gerardo.lima">
+        <ConnectionNode Name="localhost">
           <Created>2016-01-15T13:37:14.3046325+00:00</Created>
-          <Type>SQL</Type>
-          <Server>LIS-WKS-0013</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
-          <LoginTimeout>15</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-        <ConnectionNode Name="localhost:HEALY-HUDSON\gerardo.lima">
-          <Created>2016-09-06T20:13:07.9442211+01:00</Created>
           <Type>SQL</Type>
           <Server>localhost</Server>
           <UserName />
@@ -32,26 +20,26 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="admin - backup-restore - simple.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>admin - backup-restore - simple.sql</FullPath>
         </FileNode>
         <FileNode Name="admin - create database user.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>admin - create database user.sql</FullPath>
         </FileNode>
         <FileNode Name="admin - current activity.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>admin - current activity.sql</FullPath>
         </FileNode>
         <FileNode Name="func.DateBoundaries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>func.DateBoundaries.sql</FullPath>
         </FileNode>
@@ -62,80 +50,80 @@
           <FullPath>func.DelimitedSplit8K.sql</FullPath>
         </FileNode>
         <FileNode Name="func.DelimitedSplitN4K.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>func.DelimitedSplitN4K.sql</FullPath>
         </FileNode>
         <FileNode Name="func.NumberGenerator.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>func.NumberGenerator.sql</FullPath>
         </FileNode>
         <FileNode Name="func.TryDateConvert.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>func.TryDateConvert.sql</FullPath>
         </FileNode>
         <FileNode Name="proc.Print.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>proc.Print.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - bechmark.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - bechmark.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - create BIGTABLE.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - create BIGTABLE.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - create deadlock.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - create deadlock.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - dump Attachment.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - dump Attachment.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - Generate for Each Column.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - Generate for Each Column.sql</FullPath>
         </FileNode>
         <FileNode Name="sample - Generate for Each Table.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>sample - Generate for Each Table.sql</FullPath>
         </FileNode>
         <FileNode Name="util - find table and columns.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>util - find table and columns.sql</FullPath>
         </FileNode>
         <FileNode Name="util - foreing keys.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>util - foreing keys.sql</FullPath>
         </FileNode>
         <FileNode Name="util - parsing system_health.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LIS-WKS-0013:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>LIS-WKS-0013</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:localhost:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>localhost</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>util - parsing system_health.sql</FullPath>
         </FileNode>
